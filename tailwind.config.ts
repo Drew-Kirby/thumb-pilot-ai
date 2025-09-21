@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      backgroundImage: {
+        'primary-gradient': 'var(--primary-gradient)',
+        'hero-gradient': 'var(--hero-gradient)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
